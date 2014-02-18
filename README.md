@@ -9,6 +9,9 @@ Specifically designed for webkit. Will not work on non-webkit browsers (like fir
 
 Must ensure that parent element is smaller than the container for the child element.
 
+
+See live example at http://jsfiddle.net/7Lnue/
+
 Example usage
 
 ```javascript
