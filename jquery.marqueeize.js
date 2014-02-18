@@ -1,3 +1,12 @@
+/*!
+ * jQuery Marqueeize Plugin JavaScript Library v1.0.0
+ * https://github.com/turlockmike/marqueeize
+ *
+ * Copyright 2014, Michael Darmousseh
+ * licensed under the MIT liscence.
+ *
+ */
+
 (function($) {
   $.fn.marqueeize = function(opts) {
     opts = opts || {};
