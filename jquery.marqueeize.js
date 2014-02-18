@@ -19,11 +19,9 @@
       reached = opts.reached || $.noop;
 
     this.each(function(index, element) {
-      console.info("each element", element);
       var $element = $(element);
       var width = $element.outerWidth(true);
       var parentWidth = $element.parent().outerWidth(true);
-      console.info("widths", width, parentWidth);
       if (parentWidth < width) {
         $element.css({"-webkit-transition-duration": "0ms"});
         $element.css("-webkit-transform", "translate3d(0,0,0)");
